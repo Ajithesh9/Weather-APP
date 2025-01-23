@@ -12,9 +12,9 @@ body {
   background: rgba(255, 255, 255, 0.3);
   max-width: 400px;
   padding: 20px;
-  border-radius: 15px;
+  border-radius: 25px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   text-align: center;
 }
@@ -49,13 +49,14 @@ button:hover {
 }
 
 #temp-div p {
-  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 50px;
   margin-top: -30px;
 }
 
 #weather-icon {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto 10px;
   margin-bottom: 0;
   display: none;
@@ -88,4 +89,8 @@ button:hover {
 #hourly-heading {
   color: #fff;
   margin-top: 10px;
+}
+
+#weather-info {
+  padding-top: -20%;
 }
